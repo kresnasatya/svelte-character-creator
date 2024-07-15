@@ -1,0 +1,17 @@
+<script>
+
+</script>
+
+<div class="max-width-wrapper">
+    <slot/>
+</div>
+
+<style>
+.max-width-wrapper {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
