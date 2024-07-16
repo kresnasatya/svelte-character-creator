@@ -15,4 +15,8 @@ footer {
   color: white;
   text-align: center;
 }
+
+footer a {
+  color: inherit;
+}
 </style>
