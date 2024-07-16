@@ -1,5 +1,7 @@
 # Character Creation Workshop
 
+> The source of this workshop come from by Josh W Comeau, the creator of CSS for JS course. Instead of using ReactJS, this repository use Svelte with Vite.
+
 In this workshop, you'll build a Sims-style character creation screen.
 
 ## Mockups
@@ -14,57 +16,49 @@ For this workshop, we're only targeting desktops (although if you're so inclined
 
 ## Setup Instructions
 
-This project uses create-react-app.
+This project uses Vite + Svelte.
 
 Start by installing dependencies:
 
 ```
-npm install
+pnpm install
 ```
 
 Boot up a dev server:
 
 ```
-npm run start
+pnpm run start
 ```
 
-You should be able to access the application at `http://localhost:3000`.
-
-## Troubleshooting
-
-If you run into problems running a local development server, check out our [Troubleshooting Guide](https://courses.joshwcomeau.com/troubleshooting) on the course platform.
-
-This guide addresses the common `Digital Envelope Routine` error you may have seen.
+You should be able to access the application at `http://localhost:5173`.
 
 ## Project structure and context
 
-This project is built with React.
+This project is built with Vite + Svelte.
 
-**All of the functionality has already been built.** Your job is to add the CSS. You're also allowed to tweak the JSX (HTML) as-needed. But you shouldn't need to fuss with any advanced React stuff.
+**All of the functionality has already been built.** Your job is to add the CSS. You're also allowed to tweak the Svelte Component (HTML) as-needed. But you shouldn't need to fuss with any advanced Svelte stuff.
 
-This project uses **CSS Modules**. CSS modules are ultimately very similar to vanilla CSS, but the classes are applied in JS. Here's an example:
+To apply CSS style, you need to edit Svelte component that are store in `src/lib` directory. Here's an example:
 
-```css
-/* Something.module.css */
+```js
+/* SvelteComponent.svelte */
+<script>
+// JS Code
+</script>
+
+<!-- HTML tag that you may need to edit -->
+<div class="wrapper">
+  I'll be 500px wide!
+</div>
+
+<style>
 .wrapper {
   width: 500px;
 }
+</style>
 ```
 
-```js
-/* Something.js */
-import styles from './Something.module.css';
-
-function Something() {
-  return (
-    <div className={styles.wrapper}>
-      I'll be 500px wide!
-    </div>
-  );
-}
-```
-
-Additionally, a few global styles can be found in `src/index.css`.
+Additionally, a few global styles can be found in `src/app.css`.
 
 ## Exercises
 
