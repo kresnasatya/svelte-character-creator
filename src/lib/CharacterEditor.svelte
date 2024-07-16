@@ -78,7 +78,6 @@
 }
 
 .header {
-    width: 65%;
     padding-bottom: 64px;
 }
 
@@ -93,5 +92,13 @@
 .description {
     font-size: 1.25rem;
     margin: 0;
+}
+
+.control-column {
+    
+}
+
+.character-wrapper {
+
 }
 </style>
