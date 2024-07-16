@@ -79,6 +79,7 @@
 
 .header {
     padding-bottom: 64px;
+    width: 65%;
 }
 
 .title {
@@ -95,10 +96,14 @@
 }
 
 .control-column {
-    
+    width: 50%;
 }
 
 .character-wrapper {
-
+    position: fixed;
+    min-height: 500px;
+    top: 15%;
+    left: 60%;
+    bottom: 5%;
 }
 </style>
