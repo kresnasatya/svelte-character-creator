@@ -8,6 +8,7 @@
 
 <style>
 .max-width-wrapper {
+    position: relative;
     max-width: 1024px;
     padding-left: 32px;
     padding-right: 32px;

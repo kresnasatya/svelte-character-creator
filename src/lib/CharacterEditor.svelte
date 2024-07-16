@@ -11,6 +11,7 @@
 </script>
 
 <main class="character-editor">
+    <div class="perspective-effect"></div>
     <MaxWidthWrapper>
         <header class="header">
             <h1 class="title">Create your Character</h1>
@@ -75,6 +76,15 @@
 .character-editor {
     padding-top: 128px;
     padding-bottom: 64px;
+}
+
+.perspective-effect {
+    position: fixed;
+    top: 60%;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background-color: hsl(195deg 20% 86%);
 }
 
 .header {
